@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="wamssotool">
+      <UniqueIdentifier>{18243f2e-c4f4-4256-b76d-b448e312fa0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wamssomon">
+      <UniqueIdentifier>{44cb8ed2-57ae-49c1-be0f-5a6cd832e6c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pub">
+      <UniqueIdentifier>{cb335fa1-81c0-44aa-841c-a422382b9e1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\DataFile.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\hd_file_message_m.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\PubDataProcess.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\pubfun.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\public_m.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\pubodbapi.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\pubwamsdata.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\trigger_sample_m.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\warn_service_message.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\pub\warn_service_message_m.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\wamssomon\LFOAnaByCurve.cpp">
+      <Filter>wamssomon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\wamssomon\PronyAnalysis.cpp">
+      <Filter>wamssomon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\wamssomon\WamSsoMon.cpp">
+      <Filter>wamssomon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\wamssomon\WamSsoMonObj.cpp">
+      <Filter>wamssomon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\wamssomon\WamSsoMonObjItfc.cpp">
+      <Filter>wamssomon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\wamssotool\wamtool.cpp">
+      <Filter>wamssotool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_sso_nusp\wamssotool\wamtoolobj.cpp">
+      <Filter>wamssotool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\DataFile.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\hd_file_message_m.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\LFOAnaByCurve.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\PronyAnalysis.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\PubDataProcess.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\pubfun.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\public_m.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\pubodbapi.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\pubodbstruct.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\pubwamsdata.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\ThreadFunc.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\trigger_sample_m.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\WamLfoStruct.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\WarmapPubSample.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\warn_service_message.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\warn_service_message_m.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\pub\wrdb_pnapi.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\wamssomon\WamSsoMonObj.h">
+      <Filter>wamssomon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\wamssomon\WamSsoMonObjItfc.h">
+      <Filter>wamssomon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\wamssotool\wamtoolobj.h">
+      <Filter>wamssotool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_sso_nusp\wamssotool\wamtoolstruct.h">
+      <Filter>wamssotool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\wamap_sso_nusp\wamssomon\makefile">
+      <Filter>wamssomon</Filter>
+    </None>
+    <None Include="..\..\wamap_sso_nusp\wamssomon\makefile_NUSP">
+      <Filter>wamssomon</Filter>
+    </None>
+    <None Include="..\..\wamap_sso_nusp\wamssomon\makefile_NUSP_KEDONG">
+      <Filter>wamssomon</Filter>
+    </None>
+    <None Include="..\..\wamap_sso_nusp\wamssotool\makefile">
+      <Filter>wamssotool</Filter>
+    </None>
+    <None Include="..\..\wamap_sso_nusp\wamssotool\makefile_NUSP">
+      <Filter>wamssotool</Filter>
+    </None>
+    <None Include="..\..\wamap_sso_nusp\wamssotool\makefile_NUSP_KEDONG">
+      <Filter>wamssotool</Filter>
+    </None>
+  </ItemGroup>
+</Project>

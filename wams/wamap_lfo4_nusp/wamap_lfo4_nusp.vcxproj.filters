@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="powoscana_so">
+      <UniqueIdentifier>{88fac0ec-f59b-40a9-9d21-450c879c734d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="powoscana">
+      <UniqueIdentifier>{dd772a70-ed13-46e5-a2d5-f6893035fbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pub">
+      <UniqueIdentifier>{824d414f-edce-4f37-9bac-b5f1d5d2c5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wamtool">
+      <UniqueIdentifier>{0cc1eeeb-b979-4246-8b5f-1d13279eb9c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\pub\DataFile.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\pub\pubfun.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\pub\public_m.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\pub\pubodbapi.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\pub\pubwamsdata.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\pub\trigger_sample_m.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\pub\warn_service_message.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\pub\warn_service_message_m.cpp">
+      <Filter>pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\powoscana\FileOpSop.cpp">
+      <Filter>powoscana</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\powoscana\HisdbAccess.cpp">
+      <Filter>powoscana</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\powoscana\lfo_ana_obj.cpp">
+      <Filter>powoscana</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\powoscana\wam_lfo_ana.cpp">
+      <Filter>powoscana</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\wamtool\wamtool.cpp">
+      <Filter>wamtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\wamtool\wamtoolobj.cpp">
+      <Filter>wamtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\powoscana_so\LFOAnaByCurve.cpp">
+      <Filter>powoscana_so</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wamap_lfo4_nusp\powoscana_so\PronyAnalysis.cpp">
+      <Filter>powoscana_so</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\DataFile.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\lfo_struct.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\LFOAnaByCurve.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\PronyAnalysis.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\pubfun.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\public_m.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\pubodbapi.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\pubodbstruct.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\pubwamsdata.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\trigger_sample_m.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\wamtoolstruct.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\warn_service_message.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\warn_service_message_m.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\pub\wrdb_pnapi.h">
+      <Filter>pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\powoscana\FileOpSop.h">
+      <Filter>powoscana</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\powoscana\HisdbAccess.h">
+      <Filter>powoscana</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\powoscana\init_tmd_save_req.h">
+      <Filter>powoscana</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\powoscana\lfo_ana_obj.h">
+      <Filter>powoscana</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\wamtool\wamtoolobj.h">
+      <Filter>wamtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wamap_lfo4_nusp\powoscana_so\PronyAnalysis.h">
+      <Filter>powoscana_so</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile_D5000">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile_GUANGDONG">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile_KEDONG">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile_NUSP">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile_NUSP_KEDONG">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile_OPEN3000">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile_test">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana\makefile_CHG_AMPL">
+      <Filter>powoscana</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana_so\makefile">
+      <Filter>powoscana_so</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\powoscana_so\makefile_NUSP_KEDONG_so">
+      <Filter>powoscana_so</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\wamtool\makefile">
+      <Filter>wamtool</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\wamtool\makefile_NUSP">
+      <Filter>wamtool</Filter>
+    </None>
+    <None Include="..\..\wamap_lfo4_nusp\wamtool\makefile_NUSP_KEDONG">
+      <Filter>wamtool</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\wamap_lfo4_nusp\powoscana\makefile使用说明.txt">
+      <Filter>powoscana</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
