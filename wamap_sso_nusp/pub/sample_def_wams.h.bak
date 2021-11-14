@@ -1,0 +1,217 @@
+#ifndef _SAMPLE_DEF_WAMS_H
+#define _SAMPLE_DEF_WAMS_H
+/* 更新日期 */
+/*头文件生成日期 2012年07月25日 14:03:28 */
+#define	HIS_LFO_HIS_INFO_NAME "burst_sample_data_0148"
+#define	HIS_LFO_HIS_INFO_NO 148 
+/*(采样号)148  (应用号) 700000（采样名称）LFO_HIS_INFO (采样存储表名) burst_sample_data_0148*/
+/*148  700000  8600  lfo_para          LFO参数表        */
+ struct His_LFO_HIS_INFO
+ {
+	int  dsource;                          //    3 数据源                                                           int_005                         
+	float  fjud_wnap_per;                  //    6 预判振幅百分比                                                   float_002                       
+	int  time_leng;                        //    9 观察时间窗口                                                     int_006                         
+	int  int_time;                         //   10 交叠窗口                                                         int_007                         
+	float  freq_min;                       //   11 频率下限                                                         float_003                       
+	float  freq_max;                       //   12 频率上限                                                         float_004                       
+	float  lfo_damp;                       //   16 告警阻尼限值                                                     float_005                       
+	float  gn_wn_ampl;                     //   17 机组振幅限值                                                     float_006                       
+	float  ln_wn_ampl;                     //   19 线路振幅限值                                                     float_007                       
+	int  lfo_jud_num;                      //   21 判断次数                                                         int_008                         
+	int  rcd_pre_t;                        //   23 记录超前时间                                                     int_009                         
+	int  rcd_aft_t;                        //   24 记录延后时间                                                     int_010                         
+	float  sm_md_freq;                     //   28 同模频率差                                                       float_009                       
+	char  case_des[128];                   //   74 振荡案例描述                                                     string_001                      
+	long  lfo_bgn;                         //   75 LFO发生时间                                                      int_001                         
+	long  lfo_end;                         //   76 LFO消失时间                                                      int_002                         
+	char  lfo_time[128];                   //   77 持续时间                                                         string_002                      
+	long  warn_dev_id;                     //   78 触发告警设备ID                                                   int_011                         
+	char  warn_dev_name[128];              //   79 触发告警设备                                                     string_003                      
+	float  warn_freq;                      //   80 触发告警频率                                                     float_001                       
+	float  aver_freq;                      //   81 主导平均频率                                                     float_010                       
+	int  lfo_ln_num;                       //   82 LFO线路数                                                        int_003                         
+	int  lfo_gn_num;                       //   83 LFO发电机数                                                      int_004                         
+	unsigned char  is_warn;                //  135 是否发送告警                                                     int_014                         
+	unsigned char  is_samp;                //  136 是否触发采样                                                     int_020                         
+	unsigned char  is_tmd;                 //  137 是否触发tmd                                                      int_015                         
+	unsigned char  is_triems;              //  150 是否向EMS转发                                                    int_013                         
+	float  tr_wn_ampl;                     //  152 变压器振幅限值                                                   float_008                       
+	int  lfo_tr_num;                       //  156 LFO变压器数                                                      int_012                         
+	float  lowfreq_min;                    //  160 低频振荡频率下限                                                 float_011                       
+	float  lowfreq_max;                    //  161 低频振荡频率上限                                                 float_012                       
+	float  time_leng_coe;                  //  162 观察时间窗口系数                                                 float_013                       
+	float  smp_freq_coe;                   //  163 采样频率系数                                                     float_014                       
+	float  int_time_coe;                   //  164 交叠窗口系数                                                     float_015                       
+	int  warnlfo_time;                     //  165 告警持续时间限值                                                 int_016                         
+	int  safelfo_time;                     //  166 安全持续时间限值                                                 int_017                         
+	char  case_type_des[128];              //  167 振荡类型描述                                                     string_004                      
+	int  time_leng_max;                    //  168 最大观察时间窗口                                                 int_018                         
+	int  time_leng_min;                    //  169 最小观察时间窗口                                                 int_019                         
+	int  save_type;                        //  170 案例类型                                                         int_021                         
+};
+#define	TABLE_TYPE_LFO_HIS_INFO  "dsource,fjud_wnap_per,time_leng,int_time,freq_min,freq_max,lfo_damp,gn_wn_ampl,ln_wn_ampl,lfo_jud_num,rcd_pre_t,rcd_aft_t,sm_md_freq,case_des,lfo_bgn,lfo_end,lfo_time,warn_dev_id,warn_dev_name,warn_freq,aver_freq,lfo_ln_num,lfo_gn_num,is_warn,is_samp,is_tmd,is_triems,tr_wn_ampl,lfo_tr_num,lowfreq_min,lowfreq_max,time_leng_coe,smp_freq_coe,int_time_coe,warnlfo_time,safelfo_time,case_type_des,time_leng_max,time_leng_min,save_type"//实时表域名列表
+#define	SAMPLE_TYPE_LFO_HIS_INFO  "int_005,float_002,int_006,int_007,float_003,float_004,float_005,float_006,float_007,int_008,int_009,int_010,float_009,string_001,int_001,int_002,string_002,int_011,string_003,float_001,float_010,int_003,int_004,int_014,int_020,int_015,int_013,float_008,int_012,float_011,float_012,float_013,float_014,float_015,int_016,int_017,string_004,int_018,int_019,int_021"//采样实体表域名列表
+  
+#define	HIS_LFO_HIS_DECI_NAME "burst_sample_data_0149"
+#define	HIS_LFO_HIS_DECI_NO 149 
+/*(采样号)149  (应用号) 700000（采样名称）LFO_HIS_DECI (采样存储表名) burst_sample_data_0149*/
+/*149  700000  8613  lfo_asst_deci     LFO辅助决策表    */
+ struct His_LFO_HIS_DECI
+ {
+	long  record_id;                       //    1 记录号                                                           int_001                         
+	long  occur_time;                      //    2 时间                                                             int_002                         
+	long  key_dev_id;                      //    3 关键设备                                                         int_003                         
+	char  key_dev_name[128];               //    4 关键设备名                                                       string_001                      
+	float  lead_freq;                      //    6 振荡频率                                                         float_001                       
+	float  lead_damp;                      //    7 阻尼比                                                           float_002                       
+	float  lead_ampl;                      //    8 振荡幅值                                                         float_003                       
+	char  lfo_time[128];                   //    9 持续时间                                                         string_002                      
+	int  deci_type;                        //   10 策略等级                                                         int_004                         
+	char  ctl_act_dsec[128];               //   11 控制措施描述                                                     string_003                      
+	char  dev_name[128];                   //   13 设备名                                                           string_004                      
+	int  dev_type;                         //   14 设备类型                                                         int_005                         
+	float  dev_value;                      //   15 当前均值                                                         float_004                       
+	int  dev_act_type;                     //   16 调整类型                                                         int_006                         
+	float  dev_ampl;                       //   22 最大幅值                                                         float_005                       
+	float  dev_ampl_rat;                   //   23 最大波动率                                                       float_006                       
+	int  deci_sur;                         //   24 策略来源                                                         int_007                         
+};
+#define	TABLE_TYPE_LFO_HIS_DECI  "record_id,occur_time,key_dev_id,key_dev_name,lead_freq,lead_damp,lead_ampl,lfo_time,deci_type,ctl_act_dsec,dev_name,dev_type,dev_value,dev_act_type,dev_ampl,dev_ampl_rat,deci_sur"//实时表域名列表
+#define	SAMPLE_TYPE_LFO_HIS_DECI  "int_001,int_002,int_003,string_001,float_001,float_002,float_003,string_002,int_004,string_003,string_004,int_005,float_004,int_006,float_005,float_006,int_007"//采样实体表域名列表
+  
+#define	HIS_LFO_HIS_EVE_NAME "burst_sample_data_0150"
+#define	HIS_LFO_HIS_EVE_NO 150 
+/*(采样号)150  (应用号) 700000（采样名称）LFO_HIS_EVE (采样存储表名) burst_sample_data_0150*/
+/*150  700000  8617  lfo_lpo_eve       LFO_LPO信息表    */
+ struct His_LFO_HIS_EVE
+ {
+	long  record_id;                       //    1 记录ID                                                           int_001                         
+	long  eve_id;                          //    2 事件ID                                                           int_002                         
+	long  win_id;                          //    3 窗口号                                                           int_003                         
+	long  analy_bgn;                       //    4 分析起始时间                                                     int_004                         
+	long  analy_end;                       //    5 分析截止时间                                                     int_005                         
+	float  freq_max;                       //    6 频率上限                                                         float_001                       
+	float  freq_min;                       //    7 频率下限                                                         float_002                       
+	int  stat;                             //    8 系统状态                                                         int_006                         
+	int  show_gn_num;                      //    9 振荡发电机个数                                                   int_007                         
+	int  show_tr_num;                      //   10 振荡变压器个数                                                   int_008                         
+	int  show_ln_num;                      //   11 振荡线路个数                                                     int_009                         
+	float  freq;                           //   12 主导模式频率                                                     float_003                       
+	float  ampl;                           //   13 振幅                                                             float_004                       
+	float  damp;                           //   14 阻尼比                                                           float_005                       
+	int  dev_num;                          //   15 参与设备个数                                                     int_010                         
+	int  is_show;                          //   16 是否显示                                                         int_011                         
+	char  case_des[128];                   //   17 振荡案例描述                                                     string_001                      
+	long  ana_his_bgn;                     //   18 离线分析起始时间                                                 int_012                         
+	long  ana_his_end;                     //   19 离线分析截止时间                                                 int_013                         
+	long  warn_dev_id;                     //   20 触发告警设备ID                                                   int_014                         
+	long  warn_dev_facid;                  //   21 触发告警设备厂站ID                                               int_015                         
+	char  warn_dev_name[128];              //   22 触发告警设备名                                                   string_002                      
+	char  lfo_time[128];                   //   23 持续时间                                                         string_003                      
+	char  warn_dev_facname[128];           //   24 触发告警设备厂站                                                 string_004                      
+	int  save_type;                        //   25 案例类型                                                         int_016                         
+};
+#define	TABLE_TYPE_LFO_HIS_EVE  "record_id,eve_id,win_id,analy_bgn,analy_end,freq_max,freq_min,stat,show_gn_num,show_tr_num,show_ln_num,freq,ampl,damp,dev_num,is_show,case_des,ana_his_bgn,ana_his_end,warn_dev_id,warn_dev_facid,warn_dev_name,lfo_time,warn_dev_facname,save_type"//实时表域名列表
+#define	SAMPLE_TYPE_LFO_HIS_EVE  "int_001,int_002,int_003,int_004,int_005,float_001,float_002,int_006,int_007,int_008,int_009,float_003,float_004,float_005,int_010,int_011,string_001,int_012,int_013,int_014,int_015,string_002,string_003,string_004,int_016"//采样实体表域名列表
+  
+#define	HIS_PQ_DA_VOLT_MARGIN_NAME "burst_sample_data_0151"
+#define	HIS_PQ_DA_VOLT_MARGIN_NO 151 
+/*(采样号)151  (应用号) 700000（采样名称）PQ_DA_VOLT_MARGIN (采样存储表名) burst_sample_data_0151*/
+/*151  700000  8652  pq_da_stat        VF动态评估状态表 */
+ struct His_PQ_DA_VOLT_MARGIN
+ {
+	long  volttime;                        //    2 电压裕度时间                                                     int_001                         
+	int  voltstat;                         //    3 电压状态                                                         int_002                         
+	char  voltcont[128];                   //    4 电压内容                                                         string_001                      
+	float  fvolt_mar;                      //    5 电压裕度值                                                       float_001                       
+	float  volt_rat;                       //    7 二元表电压参数                                                   float_002                       
+	float  volt_time;                      //    8 二元表电压时间                                                   float_003                       
+	long  volt_bus;                        //    9 对应母线                                                         int_003                         
+};
+#define	TABLE_TYPE_PQ_DA_VOLT_MARGIN  "volttime,voltstat,voltcont,fvolt_mar,volt_rat,volt_time,volt_bus"//实时表域名列表
+#define	SAMPLE_TYPE_PQ_DA_VOLT_MARGIN  "int_001,int_002,string_001,float_001,float_002,float_003,int_003"//采样实体表域名列表
+  
+#define	HIS_PQ_DA_FREQ_MARGIN_NAME "burst_sample_data_0152"
+#define	HIS_PQ_DA_FREQ_MARGIN_NO 152 
+/*(采样号)152  (应用号) 700000（采样名称）PQ_DA_FREQ_MARGIN (采样存储表名) burst_sample_data_0152*/
+/*152  700000  8652  pq_da_stat        VF动态评估状态表 */
+ struct His_PQ_DA_FREQ_MARGIN
+ {
+	long  freqtime;                        //   10 频率裕度时间                                                     int_001                         
+	int  freqstat;                         //   11 频率状态                                                         int_002                         
+	char  freqcont[128];                   //   12 频率内容                                                         string_001                      
+	float  ffreq_mar;                      //   13 频率裕度值                                                       float_001                       
+	float  freq_rat;                       //   15 二元表频率参数                                                   float_002                       
+	float  freq_time;                      //   16 二元表频率时间                                                   float_003                       
+	long  freq_bus;                        //   17 FREQ对应母线                                                     int_003                         
+};
+#define	TABLE_TYPE_PQ_DA_FREQ_MARGIN  "freqtime,freqstat,freqcont,ffreq_mar,freq_rat,freq_time,freq_bus"//实时表域名列表
+#define	SAMPLE_TYPE_PQ_DA_FREQ_MARGIN  "int_001,int_002,string_001,float_001,float_002,float_003,int_003"//采样实体表域名列表
+  
+#define	HIS_LFO_HIS_CASE_NAME "burst_sample_data_0153"
+#define	HIS_LFO_HIS_CASE_NO 153 
+/*(采样号)153  (应用号) 700000（采样名称）LFO_HIS_CASE (采样存储表名) burst_sample_data_0153*/
+/*153  700000  8608  lfo_case_wds      LFO实时CASE窗口表 */
+ struct His_LFO_HIS_CASE
+ {
+	long  wds_id;                          //    1 窗口ID                                                           int_001                         
+	float  freq_max;                       //   24 频率上限                                                         float_001                       
+	float  freq_min;                       //   25 频率下限                                                         float_002                       
+	long  eve_id;                          //   26 事件ID                                                           int_002                         
+	long  win_id;                          //   27 窗口号                                                           int_003                         
+	long  analy_bgn;                       //   28 分析起始时间                                                     int_004                         
+	long  analy_end;                       //   29 分析截止时间                                                     int_005                         
+	float  rphas;                          //   31 初相                                                             float_006                       
+	long  lfodev_id;                       //   32 振荡设备ID                                                       int_006                         
+	long  fac_id;                          //   33 厂站ID                                                           int_007                         
+	int  dev_type;                         //   34 设备类型                                                         int_008                         
+	float  freq;                           //   35 频率                                                             float_003                       
+	float  ampl;                           //   36 振幅                                                             float_004                       
+	float  damp;                           //   37 阻尼比                                                           float_005                       
+	float  aver_val;                       //   38 平均值                                                           float_007                       
+	float  max_ampl_rat;                   //   39 最大波动率                                                       float_008                       
+	char  lfo_time[128];                   //   40 持续时间                                                         string_001                      
+	float  lfo_max_val;                    //   41 LFO最大值                                                        float_009                       
+	long  lfo_max_val_t;                   //   42 LFO最大值时间                                                    int_009                         
+	float  lfo_min_val;                    //   43 LFO最小值                                                        float_010                       
+	long  lfo_min_val_t;                   //   44 LFO最小值时间                                                    int_010                         
+	char  lfodev_name[128];                //   45 振荡设备名称                                                     string_002                      
+	char  fac_name[128];                   //   46 厂站名称                                                         string_003                      
+};
+#define	TABLE_TYPE_LFO_HIS_CASE  "wds_id,freq_max,freq_min,eve_id,win_id,analy_bgn,analy_end,rphas,lfodev_id,fac_id,dev_type,freq,ampl,damp,aver_val,max_ampl_rat,lfo_time,lfo_max_val,lfo_max_val_t,lfo_min_val,lfo_min_val_t,lfodev_name,fac_name"//实时表域名列表
+#define	SAMPLE_TYPE_LFO_HIS_CASE  "int_001,float_001,float_002,int_002,int_003,int_004,int_005,float_006,int_006,int_007,int_008,float_003,float_004,float_005,float_007,float_008,string_001,float_009,int_009,float_010,int_010,string_002,string_003"//采样实体表域名列表
+  
+#define	HIS_LFO_HIS_SLLSHAPE_NAME "burst_sample_data_0154"
+#define	HIS_LFO_HIS_SLLSHAPE_NO 154 
+/*(采样号)154  (应用号) 700000（采样名称）LFO_HIS_SLLSHAPE (采样存储表名) burst_sample_data_0154*/
+/*154  700000  8609  lfo_case_allshape  LFO实时CASE模态全表 */
+ struct His_LFO_HIS_SLLSHAPE
+ {
+	long  record_id;                       //    1 记录号                                                           int_001                         
+	float  fact;                           //   10 参与因子                                                         float_001                       
+	long  dev_id;                          //   12 设备ID                                                           int_002                         
+	char  dev_name[128];                   //   13 设备名称                                                         string_001                      
+	int  dev_type;                         //   14 设备类型                                                         int_003                         
+	long  fac_id;                          //   15 所属厂站                                                         int_004                         
+	long  area_id;                         //   16 所属区域                                                         int_005                         
+	unsigned char  clus;                   //   19 所属群                                                           int_006                         
+	float  freq;                           //   20 频率                                                             float_002                       
+	float  damp;                           //   21 阻尼比                                                           float_003                       
+	float  ampl;                           //   22 振幅                                                             float_004                       
+	float  engy;                           //   23 能量                                                             float_005                       
+	float  aver_val;                       //   24 平均值                                                           float_006                       
+	float  max_ampl;                       //   25 最大幅值                                                         float_007                       
+	float  freq_max;                       //   28 频率上限                                                         float_008                       
+	float  freq_min;                       //   29 频率下限                                                         float_009                       
+	long  eve_id;                          //   30 事件ID                                                           int_007                         
+	long  win_id;                          //   31 窗口号                                                           int_008                         
+	long  analy_bgn;                       //   32 分析起始时间                                                     int_009                         
+	long  analy_end;                       //   33 分析截止时间                                                     int_010                         
+	float  iniphas;                        //   35 初相                                                             float_010                       
+	char  fac_name[128];                   //   36 厂站名称                                                         string_002                      
+	char  area_name[128];                  //   37 区域名称                                                         string_003                      
+};
+#define	TABLE_TYPE_LFO_HIS_SLLSHAPE  "record_id,fact,dev_id,dev_name,dev_type,fac_id,area_id,clus,freq,damp,ampl,engy,aver_val,max_ampl,freq_max,freq_min,eve_id,win_id,analy_bgn,analy_end,iniphas,fac_name,area_name"//实时表域名列表
+#define	SAMPLE_TYPE_LFO_HIS_SLLSHAPE  "int_001,float_001,int_002,string_001,int_003,int_004,int_005,int_006,float_002,float_003,float_004,float_005,float_006,float_007,float_008,float_009,int_007,int_008,int_009,int_010,float_010,string_002,string_003"//采样实体表域名列表
+  
+#endif

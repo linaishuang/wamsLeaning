@@ -1,0 +1,633 @@
+g++ -fpermissive -D_CXX -D_UNIX -D_WAMSDATA_ -D_D5000 -D_WAMAP_ -D_PODB_WARN_ -D_GUANGDONG -D_NUSP -D_KEDONG -D_SIFANG -c -g -I../../../../../source/include/ -D_LINUX -pthread -fPIC -Wall -Wno-format-y2k -D_LITTLEENDIAN -I../pub -I../../pub -I../../ -I../ -I/home/scada/jibei -I/home/scada/jibei/source/include -I/home/scada/jibei/source/include/oodbcpp -I/home/scada/jibei/source/include/rtdbc PronyAnalysis.cpp
+PronyAnalysis.cpp: In member function 'void CPronyAnalysis::PronyAnalysis(PRONY_CALC_PARA, int, double*, double*, int&, PRONY_MODE_CHARA*, double&, int&)':
+PronyAnalysis.cpp:456:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(a!=NULL) free(a); a =NULL;
+     ^~
+PronyAnalysis.cpp:456:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(a!=NULL) free(a); a =NULL;
+                          ^
+PronyAnalysis.cpp:457:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(ra!=NULL) free(ra);ra=NULL;
+     ^~
+PronyAnalysis.cpp:457:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(ra!=NULL) free(ra);ra=NULL;
+                           ^~
+PronyAnalysis.cpp:458:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(rb!=NULL) free(rb);rb=NULL;
+     ^~
+PronyAnalysis.cpp:458:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(rb!=NULL) free(rb);rb=NULL;
+                           ^~
+PronyAnalysis.cpp:462:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+    if(ra!=NULL) free(ra);ra=NULL;
+    ^~
+PronyAnalysis.cpp:462:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+    if(ra!=NULL) free(ra);ra=NULL;
+                          ^~
+PronyAnalysis.cpp:463:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+    if(rb!=NULL) free(rb);rb=NULL;
+    ^~
+PronyAnalysis.cpp:463:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+    if(rb!=NULL) free(rb);rb=NULL;
+                          ^~
+PronyAnalysis.cpp:472:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(a!=NULL) free(a);a=NULL;
+     ^~
+PronyAnalysis.cpp:472:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(a!=NULL) free(a);a=NULL;
+                         ^
+PronyAnalysis.cpp:473:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(zr!=NULL) free(zr);zr=NULL;
+     ^~
+PronyAnalysis.cpp:473:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(zr!=NULL) free(zr);zr=NULL;
+                           ^~
+PronyAnalysis.cpp:474:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(zi!=NULL) free(zi);zi=NULL;
+     ^~
+PronyAnalysis.cpp:474:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(zi!=NULL) free(zi);zi=NULL;
+                           ^~
+PronyAnalysis.cpp:487:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(a!=NULL) free(a);a=NULL;
+     ^~
+PronyAnalysis.cpp:487:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(a!=NULL) free(a);a=NULL;
+                         ^
+PronyAnalysis.cpp:488:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(zr!=NULL) free(zr);zr=NULL;
+     ^~
+PronyAnalysis.cpp:488:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(zr!=NULL) free(zr);zr=NULL;
+                           ^~
+PronyAnalysis.cpp:489:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(zi!=NULL) free(zi);zi=NULL;
+     ^~
+PronyAnalysis.cpp:489:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(zi!=NULL) free(zi);zi=NULL;
+                           ^~
+PronyAnalysis.cpp:490:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(br!=NULL) free(br);br=NULL;
+     ^~
+PronyAnalysis.cpp:490:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(br!=NULL) free(br);br=NULL;
+                           ^~
+PronyAnalysis.cpp:491:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(bi!=NULL) free(bi);bi=NULL;
+     ^~
+PronyAnalysis.cpp:491:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(bi!=NULL) free(bi);bi=NULL;
+                           ^~
+PronyAnalysis.cpp:496:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+    if(a!=NULL) free(a);a=NULL;
+    ^~
+PronyAnalysis.cpp:496:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+    if(a!=NULL) free(a);a=NULL;
+                        ^
+PronyAnalysis.cpp:529:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(zr!=NULL) free(zr);zr=NULL;
+     ^~
+PronyAnalysis.cpp:529:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(zr!=NULL) free(zr);zr=NULL;
+                           ^~
+PronyAnalysis.cpp:530:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(zi!=NULL) free(zi);zi=NULL;
+     ^~
+PronyAnalysis.cpp:530:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(zi!=NULL) free(zi);zi=NULL;
+                           ^~
+PronyAnalysis.cpp:531:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(br!=NULL) free(br);br=NULL;
+     ^~
+PronyAnalysis.cpp:531:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(br!=NULL) free(br);br=NULL;
+                           ^~
+PronyAnalysis.cpp:532:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+     if(bi!=NULL) free(bi);bi=NULL;
+     ^~
+PronyAnalysis.cpp:532:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+     if(bi!=NULL) free(bi);bi=NULL;
+                           ^~
+PronyAnalysis.cpp:253:6: warning: variable 'modenum' set but not used [-Wunused-but-set-variable]
+  int modenum = 0;
+      ^~~~~~~
+PronyAnalysis.cpp: In member function 'int CPronyAnalysis::DataProcess(int, double*, double*, double, double*, double*, double*)':
+PronyAnalysis.cpp:947:22: warning: variable 'dtinitial' set but not used [-Wunused-but-set-variable]
+  double lkn,h=0.0,t1,dtinitial;
+                      ^~~~~~~~~
+PronyAnalysis.cpp: In member function 'int CPronyAnalysis::FormMatrix(double*, double*, double*, double*, int, int, double*, double*)':
+PronyAnalysis.cpp:1676:9: warning: variable 'mm' set but not used [-Wunused-but-set-variable]
+     int mm,nn;
+         ^~
+PronyAnalysis.cpp:1676:12: warning: variable 'nn' set but not used [-Wunused-but-set-variable]
+     int mm,nn;
+            ^~
+g++ -fpermissive -D_CXX -D_UNIX -D_WAMSDATA_ -D_D5000 -D_WAMAP_ -D_PODB_WARN_ -D_GUANGDONG -D_NUSP -D_KEDONG -D_SIFANG -c -g -I../../../../../source/include/ -D_LINUX -pthread -fPIC -Wall -Wno-format-y2k -D_LITTLEENDIAN -I../pub -I../../pub -I../../ -I../ -I/home/scada/jibei -I/home/scada/jibei/source/include -I/home/scada/jibei/source/include/oodbcpp -I/home/scada/jibei/source/include/rtdbc LFOAnaByCurve.cpp
+In file included from ../pub/pubodbapi.h:137,
+                 from ../lfo_ana_obj.h:13,
+                 from LFOAnaByCurve.cpp:11:
+/home/scada/jibei/db_def/sys_menu_info.h:6474: warning: "MENU_NGC_NGCOP_OTHERS" redefined
+ #define MENU_NGC_NGCOP_OTHERS 1 /* 区域操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6473: note: this is the location of the previous definition
+ #define MENU_NGC_NGCOP_OTHERS 0 /* 其他 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6475: warning: "MENU_NGC_NGCOP_OTHERS" redefined
+ #define MENU_NGC_NGCOP_OTHERS 2 /* 断面操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6474: note: this is the location of the previous definition
+ #define MENU_NGC_NGCOP_OTHERS 1 /* 区域操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6476: warning: "MENU_NGC_NGCOP_OTHERS" redefined
+ #define MENU_NGC_NGCOP_OTHERS 3 /* 群组操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6475: note: this is the location of the previous definition
+ #define MENU_NGC_NGCOP_OTHERS 2 /* 断面操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6477: warning: "MENU_NGC_NGCOP_OTHERS" redefined
+ #define MENU_NGC_NGCOP_OTHERS 4 /* NPLC操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6476: note: this is the location of the previous definition
+ #define MENU_NGC_NGCOP_OTHERS 3 /* 群组操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6478: warning: "MENU_NGC_NGCOP_OTHERS" redefined
+ #define MENU_NGC_NGCOP_OTHERS 5 /* 场站操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6477: note: this is the location of the previous definition
+ #define MENU_NGC_NGCOP_OTHERS 4 /* NPLC操作 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6559: warning: "MENU_NGC_PLCST_UNDER_CONTROL" redefined
+ #define MENU_NGC_PLCST_UNDER_CONTROL 0 /* 受控 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6498: note: this is the location of the previous definition
+ #define MENU_NGC_PLCST_UNDER_CONTROL 1 /* 受控 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6560: warning: "MENU_NGC_PLCST_OUT_CONTROL" redefined
+ #define MENU_NGC_PLCST_OUT_CONTROL 1 /* 非受控 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6499: note: this is the location of the previous definition
+ #define MENU_NGC_PLCST_OUT_CONTROL 2 /* 非受控 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6561: warning: "MENU_NGC_PLCST_BLOCK_CONTROL" redefined
+ #define MENU_NGC_PLCST_BLOCK_CONTROL 2 /* 封锁受控 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6500: note: this is the location of the previous definition
+ #define MENU_NGC_PLCST_BLOCK_CONTROL 3 /* 封锁受控 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6562: warning: "MENU_NGC_PLCST_PAUSE" redefined
+ #define MENU_NGC_PLCST_PAUSE 3 /* 暂停 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6501: note: this is the location of the previous definition
+ #define MENU_NGC_PLCST_PAUSE 4 /* 暂停 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6563: warning: "MENU_NGC_PLCST_OFFLINE" redefined
+ #define MENU_NGC_PLCST_OFFLINE 4 /* 离线 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6502: note: this is the location of the previous definition
+ #define MENU_NGC_PLCST_OFFLINE 5 /* 离线 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7268: warning: "MENU_GNPLAN_MATCH_FAIL" redefined
+ #define MENU_GNPLAN_MATCH_FAIL 18 /* 机组名称匹配失败 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6256: note: this is the location of the previous definition
+ #define MENU_GNPLAN_MATCH_FAIL 19 /* 机组名称匹配失败 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7269: warning: "MENU_INTFMAP_NOT_EXIST" redefined
+ #define MENU_INTFMAP_NOT_EXIST 19 /* 无输电断面成员 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6257: note: this is the location of the previous definition
+ #define MENU_INTFMAP_NOT_EXIST 20 /* 无输电断面成员 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7270: warning: "MENU_INTFMAP_MATCH_FAIL" redefined
+ #define MENU_INTFMAP_MATCH_FAIL 20 /* 输电断面成员匹配失败 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6258: note: this is the location of the previous definition
+ #define MENU_INTFMAP_MATCH_FAIL 21 /* 输电断面成员匹配失败 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7271: warning: "MENU_INTF_NOT_EXIST" redefined
+ #define MENU_INTF_NOT_EXIST 21 /* 无输电断面限额数据 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6259: note: this is the location of the previous definition
+ #define MENU_INTF_NOT_EXIST 22 /* 无输电断面限额数据 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7272: warning: "MENU_INTF_WIHOUT_DEFINE" redefined
+ #define MENU_INTF_WIHOUT_DEFINE 22 /* 输电断面缺少定义 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6260: note: this is the location of the previous definition
+ #define MENU_INTF_WIHOUT_DEFINE 23 /* 输电断面缺少定义 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7273: warning: "MENU_AREA_NOT_BALANCE" redefined
+ #define MENU_AREA_NOT_BALANCE 23 /* 发受用电不平衡 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6261: note: this is the location of the previous definition
+ #define MENU_AREA_NOT_BALANCE 24 /* 发受用电不平衡 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7274: warning: "MENU_ALL_ERROR_SCH" redefined
+ #define MENU_ALL_ERROR_SCH 24 /* 全部 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:6265: note: this is the location of the previous definition
+ #define MENU_ALL_ERROR_SCH 28 /* 全部 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7905: warning: "THAVC_CTRG_CCT" redefined
+ #define THAVC_CTRG_CCT 4 /* 直流闭锁触发 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:7904: note: this is the location of the previous definition
+ #define THAVC_CTRG_CCT 3 /* 集控中心触发 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8251: warning: "THAVC_CTRL_LOOP" redefined
+ #define THAVC_CTRL_LOOP 1 /* 闭环 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8132: note: this is the location of the previous definition
+ #define THAVC_CTRL_LOOP 2 /* 闭环 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8252: warning: "THAVC_CTRL_LOOP" redefined
+ #define THAVC_CTRL_LOOP 2 /* 闭环 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8251: note: this is the location of the previous definition
+ #define THAVC_CTRL_LOOP 1 /* 闭环 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8486: warning: "THAVC_TYPE_CVC_ZONE_RUN" redefined
+ #define THAVC_TYPE_CVC_ZONE_RUN 4 /* 地调AVC投运率 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8485: note: this is the location of the previous definition
+ #define THAVC_TYPE_CVC_ZONE_RUN 3 /* 电厂投运率 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8577: warning: "NUSP_TERMAL_TYPE_MOBILE" redefined
+ #define NUSP_TERMAL_TYPE_MOBILE 19 /* 厂站协调母线 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8576: note: this is the location of the previous definition
+ #define NUSP_TERMAL_TYPE_MOBILE 10 /* 普通母线 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10033: warning: "NUSP_" redefined
+ #define NUSP_ DOMAIN_SCOPE 2 /* 本系统启用 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10032: note: this is the location of the previous definition
+ #define NUSP_ GLOBAL_SCOPE 1 /* 全局启用 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10037: warning: "NUSP_" redefined
+ #define NUSP_ TIME_RULE 1 /* 时间规则 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10033: note: this is the location of the previous definition
+ #define NUSP_ DOMAIN_SCOPE 2 /* 本系统启用 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10039: warning: "NUSP_" redefined
+ #define NUSP_ BUSSINESS_RULE 3 /* 业务规则 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10037: note: this is the location of the previous definition
+ #define NUSP_ TIME_RULE 1 /* 时间规则 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10042: warning: "NUSP_" redefined
+ #define NUSP_ SYSTEM_ROLE 1 /* 系统角色 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10039: note: this is the location of the previous definition
+ #define NUSP_ BUSSINESS_RULE 3 /* 业务规则 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10043: warning: "NUSP_" redefined
+ #define NUSP_ CUSTOM_ROLE 2 /* 自定义角色 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10042: note: this is the location of the previous definition
+ #define NUSP_ SYSTEM_ROLE 1 /* 系统角色 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10056: warning: "NUSP_" redefined
+ #define NUSP_ USER_RUNNING 1 /* 在用 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10043: note: this is the location of the previous definition
+ #define NUSP_ CUSTOM_ROLE 2 /* 自定义角色 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10057: warning: "NUSP_" redefined
+ #define NUSP_ USER_LOCKED 2 /* 锁定 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10056: note: this is the location of the previous definition
+ #define NUSP_ USER_RUNNING 1 /* 在用 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10058: warning: "NUSP_" redefined
+ #define NUSP_ USER_EXPIRE 3 /* 失效 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10057: note: this is the location of the previous definition
+ #define NUSP_ USER_LOCKED 2 /* 锁定 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11122: warning: "MENU_WAMS_FES" redefined
+ #define MENU_WAMS_FES 703200 /* wams_sso */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11074: note: this is the location of the previous definition
+ #define MENU_WAMS_FES 702100 /* wams_fes */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11239: warning: "MENU_NE_WINDGN_STOP" redefined
+ #define MENU_NE_WINDGN_STOP 6 /* 停运 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11229: note: this is the location of the previous definition
+ #define MENU_NE_WINDGN_STOP 7 /* 停运 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11240: warning: "MENU_NE_WINDGN_NOCOMM" redefined
+ #define MENU_NE_WINDGN_NOCOMM 7 /* 通讯中断 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11230: note: this is the location of the previous definition
+ #define MENU_NE_WINDGN_NOCOMM 8 /* 通讯中断 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11682: warning: "NUSP_TERMAL_TYPE_MOBILE" redefined
+ #define NUSP_TERMAL_TYPE_MOBILE 2 /* 移动终端 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:8577: note: this is the location of the previous definition
+ #define NUSP_TERMAL_TYPE_MOBILE 19 /* 厂站协调母线 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11760: warning: "NUSP_" redefined
+ #define NUSP_ GLOBAL_SCOPE 1 /* 鍏ㄥ眬鍚敤 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:10058: note: this is the location of the previous definition
+ #define NUSP_ USER_EXPIRE 3 /* 失效 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11761: warning: "NUSP_" redefined
+ #define NUSP_ DOMAIN_SCOPE 2 /* 鏈郴缁熷惎鐢 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11760: note: this is the location of the previous definition
+ #define NUSP_ GLOBAL_SCOPE 1 /* 鍏ㄥ眬鍚敤 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11775: warning: "NUSP_" redefined
+ #define NUSP_ USER_RUNNING 1 /* 鍦ㄧ敤 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11761: note: this is the location of the previous definition
+ #define NUSP_ DOMAIN_SCOPE 2 /* 鏈郴缁熷惎鐢 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11776: warning: "NUSP_" redefined
+ #define NUSP_ USER_LOCKED 2 /* 閿佸畾 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11775: note: this is the location of the previous definition
+ #define NUSP_ USER_RUNNING 1 /* 鍦ㄧ敤 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11777: warning: "NUSP_" redefined
+ #define NUSP_ USER_EXPIRE 3 /* 澶辨晥 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11776: note: this is the location of the previous definition
+ #define NUSP_ USER_LOCKED 2 /* 閿佸畾 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11781: warning: "NUSP_" redefined
+ #define NUSP_ TIME_RULE 1 /* 鏃堕棿瑙勫垯 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11777: note: this is the location of the previous definition
+ #define NUSP_ USER_EXPIRE 3 /* 澶辨晥 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11783: warning: "NUSP_" redefined
+ #define NUSP_ BUSSINESS_RULE 3 /* 涓氬姟瑙勫垯 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11781: note: this is the location of the previous definition
+ #define NUSP_ TIME_RULE 1 /* 鏃堕棿瑙勫垯 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11786: warning: "NUSP_" redefined
+ #define NUSP_ SYSTEM_ROLE 1 /* 绯荤粺瑙掕壊 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11783: note: this is the location of the previous definition
+ #define NUSP_ BUSSINESS_RULE 3 /* 涓氬姟瑙勫垯 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11787: warning: "NUSP_" redefined
+ #define NUSP_ CUSTOM_ROLE 2 /* 鑷畾涔夎鑹 */
+ 
+/home/scada/jibei/db_def/sys_menu_info.h:11786: note: this is the location of the previous definition
+ #define NUSP_ SYSTEM_ROLE 1 /* 绯荤粺瑙掕壊 */
+ 
+In file included from /usr/include/c++/8/backward/strstream:50,
+                 from ../pub/pubfun.h:61,
+                 from ../lfo_ana_obj.h:14,
+                 from LFOAnaByCurve.cpp:11:
+/usr/include/c++/8/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^~~~~~~
+In file included from ../pub/lfo_struct.h:10,
+                 from ../lfo_ana_obj.h:15,
+                 from LFOAnaByCurve.cpp:11:
+../pub/wamtoolstruct.h:137:28: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_FC_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"VOL_INT_REC_FMT",%d,%d,%d,"INT_REC_FMT",%d)"
+                            ^
+../pub/wamtoolstruct.h:137:70: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_FC_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"VOL_INT_REC_FMT",%d,%d,%d,"INT_REC_FMT",%d)"
+                                                                      ^
+../pub/wamtoolstruct.h:137:84: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_FC_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"VOL_INT_REC_FMT",%d,%d,%d,"INT_REC_FMT",%d)"
+                                                                                    ^
+../pub/wamtoolstruct.h:137:98: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_FC_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"VOL_INT_REC_FMT",%d,%d,%d,"INT_REC_FMT",%d)"
+                                                                                                  ^
+../pub/wamtoolstruct.h:137:119: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_FC_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"VOL_INT_REC_FMT",%d,%d,%d,"INT_REC_FMT",%d)"
+                                                                                                                       ^
+In file included from ../pub/lfo_struct.h:10,
+                 from ../lfo_ana_obj.h:15,
+                 from LFOAnaByCurve.cpp:11:
+../pub/wamtoolstruct.h:164:28: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_GN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%f,%f)"
+                            ^
+../pub/wamtoolstruct.h:164:70: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_GN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%f,%f)"
+                                                                      ^
+../pub/wamtoolstruct.h:164:84: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_GN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%f,%f)"
+                                                                                    ^
+../pub/wamtoolstruct.h:164:98: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_GN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%f,%f)"
+                                                                                                  ^
+In file included from ../pub/lfo_struct.h:10,
+                 from ../lfo_ana_obj.h:15,
+                 from LFOAnaByCurve.cpp:11:
+../pub/wamtoolstruct.h:197:28: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                            ^
+../pub/wamtoolstruct.h:197:70: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                                                                      ^
+../pub/wamtoolstruct.h:197:84: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                                                                                    ^
+../pub/wamtoolstruct.h:197:98: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                                                                                                  ^
+../pub/wamtoolstruct.h:197:112: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                                                                                                                ^
+../pub/wamtoolstruct.h:197:126: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                                                                                                                              ^
+../pub/wamtoolstruct.h:197:140: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                                                                                                                                            ^
+../pub/wamtoolstruct.h:197:154: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                                                                                                                                                          ^
+../pub/wamtoolstruct.h:197:168: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_LN_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,%d,"VOL_INT_REC_FMT",%d,%f,%f)"
+                                                                                                                                                                        ^
+../pub/wamtoolstruct.h:236:28: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                            ^
+../pub/wamtoolstruct.h:236:70: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                      ^
+../pub/wamtoolstruct.h:236:84: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                    ^
+../pub/wamtoolstruct.h:236:98: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                                  ^
+../pub/wamtoolstruct.h:236:112: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                                                ^
+../pub/wamtoolstruct.h:236:132: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                                                                    ^
+../pub/wamtoolstruct.h:236:150: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                                                                                      ^
+../pub/wamtoolstruct.h:236:164: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                                                                                                    ^
+../pub/wamtoolstruct.h:236:182: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                                                                                                                      ^
+../pub/wamtoolstruct.h:236:196: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                                                                                                                                    ^
+../pub/wamtoolstruct.h:236:214: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define LFO_TR_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,%d,"INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT","VOL_INT_REC_FMT","INT_REC_FMT",%d,%d,%d,%d,%d,%d,%d,%f,%f)"
+                                                                                                                                                                                                                      ^
+../pub/wamtoolstruct.h:282:31: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define PQ_DA_BUS_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"INT_REC_FMT",%d,"INT_REC_FMT","INT_REC_FMT",%f)"
+                               ^
+../pub/wamtoolstruct.h:282:73: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define PQ_DA_BUS_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"INT_REC_FMT",%d,"INT_REC_FMT","INT_REC_FMT",%f)"
+                                                                         ^
+../pub/wamtoolstruct.h:282:87: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define PQ_DA_BUS_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"INT_REC_FMT",%d,"INT_REC_FMT","INT_REC_FMT",%f)"
+                                                                                       ^
+../pub/wamtoolstruct.h:282:101: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define PQ_DA_BUS_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"INT_REC_FMT",%d,"INT_REC_FMT","INT_REC_FMT",%f)"
+                                                                                                     ^
+../pub/wamtoolstruct.h:282:115: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define PQ_DA_BUS_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"INT_REC_FMT",%d,"INT_REC_FMT","INT_REC_FMT",%f)"
+                                                                                                                   ^
+../pub/wamtoolstruct.h:282:132: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define PQ_DA_BUS_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"INT_REC_FMT",%d,"INT_REC_FMT","INT_REC_FMT",%f)"
+                                                                                                                                    ^
+../pub/wamtoolstruct.h:282:149: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+ #define PQ_DA_BUS_TAB_CRE_FMT "insert into %s (%s)\nvalues ("INT_REC_FMT","INT_REC_FMT","INT_REC_FMT","INT_REC_FMT",%d,"INT_REC_FMT",%d,"INT_REC_FMT","INT_REC_FMT",%f)"
+                                                                                                                                                     ^
+In file included from ../lfo_ana_obj.h:15,
+                 from LFOAnaByCurve.cpp:11:
+../pub/lfo_struct.h:768:1: warning: multi-line comment [-Wcomment]
+ // #define LFO_PARA_TABLE_READ_FLD "record_id,dsource,mem_max_sec,smp_freq,fjud_wnap_per,flt_len,flt_coe,time_leng,int_time,freq_min,"\
+ ^
+../pub/lfo_struct.h:774:1: warning: multi-line comment [-Wcomment]
+ //#define LFO_PARA_TABLE_READ_FLD "record_id,dsource,mem_max_sec,smp_freq,fjud_wnap_per,flt_len,flt_coe,time_leng,int_time,freq_min,"\
+ ^
+../pub/lfo_struct.h:959:1: warning: multi-line comment [-Wcomment]
+ // #define LFO_GN_TAB_MONWRITE_FLD "stat,stat_val,lead_ampl,lead_freq,lead_damp,lead_phas,lead_real,lead_imag,lead_engy,lead_fail,aver_val,"\
+ ^
+In file included from ../FileOpSop.h:5,
+                 from ../lfo_ana_obj.h:21,
+                 from LFOAnaByCurve.cpp:11:
+../../../../../source/include/ClientOp.h:64: warning: "DEBUG" redefined
+ #define DEBUG 0  //是否打印测试语句
+ 
+In file included from ../../../../../source/include/db_api/SQLdefine.h:11,
+                 from ../../../../../source/include/db_api/SQLstruct.h:3,
+                 from ../../../../../source/include/db_api/CWhere.h:4,
+                 from ../../../../../source/include/db_api/odb_tableop.h:20,
+                 from ../pub/pubodbapi.h:110,
+                 from ../lfo_ana_obj.h:13,
+                 from LFOAnaByCurve.cpp:11:
+../../../../../source/include/db_api/debug.h:13: note: this is the location of the previous definition
+ #define DEBUG(...) LIBDEBUG(__FILE__, __LINE__, __VA_ARGS__)
+ 
+In file included from ../lfo_ana_obj.h:15,
+                 from LFOAnaByCurve.cpp:11:
+../pub/lfo_struct.h:1473:1: warning: 'typedef' was ignored in this declaration
+ typedef struct tab_lfo_pmu_row
+ ^~~~~~~
+../pub/lfo_struct.h:1480:1: warning: 'typedef' was ignored in this declaration
+ typedef struct tab_lfo_pmu_header
+ ^~~~~~~
+In file included from ../../../../../source/include/ClientOp.h:18,
+                 from ../FileOpSop.h:5,
+                 from ../lfo_ana_obj.h:21,
+                 from LFOAnaByCurve.cpp:11:
+../../../../../source/include/SocketClient.hh: In member function 'SocketClient::operator void*()':
+../../../../../source/include/SocketClient.hh:57:35: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  operator void*() { return (void*)status;}
+                                   ^~~~~~
+LFOAnaByCurve.cpp: In member function 'void CLFOAnaByCurve::IdtfPartGnLnTr(int, MODE_PART_OBJ*, int&, MODE_CHRCT*)':
+LFOAnaByCurve.cpp:543:11: warning: unused variable 'jj' [-Wunused-variable]
+  int  ii, jj;
+           ^~
+LFOAnaByCurve.cpp:549:7: warning: unused variable 'findSamModeFlag' [-Wunused-variable]
+  bool findSamModeFlag = false;
+       ^~~~~~~~~~~~~~~
+LFOAnaByCurve.cpp: In member function 'bool CLFOAnaByCurve::CalcPartFactor(int, MODE_PART_OBJ*)':
+LFOAnaByCurve.cpp:653:7: warning: unused variable 'LogString' [-Wunused-variable]
+  char LogString[1024];
+       ^~~~~~~~~
+LFOAnaByCurve.cpp: In member function 'bool CLFOAnaByCurve::CalcPartFactor(int, MODE_PART_OBJ*, int)':
+LFOAnaByCurve.cpp:709:8: warning: unused variable 'fGnTj' [-Wunused-variable]
+  float fGnTj    = 0;
+        ^~~~~
+LFOAnaByCurve.cpp:710:7: warning: unused variable 'LogString' [-Wunused-variable]
+  char LogString[1024];
+       ^~~~~~~~~
+LFOAnaByCurve.cpp: In member function 'void CLFOAnaByCurve::IdtfCausLfoGn(int&, MODE_PART_OBJ*, float, unsigned char)':
+LFOAnaByCurve.cpp:1185:7: warning: unused variable 'LogString' [-Wunused-variable]
+  char LogString[1024];
+       ^~~~~~~~~
+LFOAnaByCurve.cpp: In member function 'void CLFOAnaByCurve::IdtfLfoGnCohcyFc(int&, MODE_PART_OBJ*, MODE_PART_OBJ*, float, unsigned char)':
+LFOAnaByCurve.cpp:1425:8: warning: unused variable 'findIndex' [-Wunused-variable]
+  int   findIndex     = 0;
+        ^~~~~~~~~
+LFOAnaByCurve.cpp:1430:7: warning: unused variable 'LogString' [-Wunused-variable]
+  char LogString[1024];
+       ^~~~~~~~~
+LFOAnaByCurve.cpp: In member function 'void CLFOAnaByCurve::filteDevByPartfact(int, MODE_CHRCT*, int&, MODE_CHRCT*, int)':
+LFOAnaByCurve.cpp:1512:8: warning: unused variable 'nPart' [-Wunused-variable]
+  int   nPart = 0;
+        ^~~~~
+LFOAnaByCurve.cpp:1513:8: warning: unused variable 'fEngy' [-Wunused-variable]
+  float fEngy = 0;
+        ^~~~~
+LFOAnaByCurve.cpp:1514:8: warning: unused variable 'fReal' [-Wunused-variable]
+  float fReal = 0;
+        ^~~~~
+LFOAnaByCurve.cpp:1515:8: warning: unused variable 'fImag' [-Wunused-variable]
+  float fImag = 0;
+        ^~~~~
+In file included from ../lfo_ana_obj.h:17,
+                 from LFOAnaByCurve.cpp:11:
+../pub/DataFile.h: At global scope:
+../pub/DataFile.h:114:21: warning: 'DF::ERRORCODES' defined but not used [-Wunused-variable]
+  static const char* ERRORCODES[] =
+                     ^~~~~~~~~~
+../pub/DataFile.h:101:21: warning: 'DF::DEFAULT_DELIMITER' defined but not used [-Wunused-variable]
+  static const char* DEFAULT_DELIMITER  =     ",";
+                     ^~~~~~~~~~~~~~~~~
+In file included from ../../../../../source/include/newservices.h:14,
+                 from /home/scada/jibei/source/include/oodbcpp/oodb_cpp_net.h:21,
+                 from /home/scada/jibei/source/include/oodbcpp/oodb_cpp_apiop.h:17,
+                 from ../../../../../source/include/db_api/odb_tableop.h:18,
+                 from ../pub/pubodbapi.h:110,
+                 from ../lfo_ana_obj.h:13,
+                 from LFOAnaByCurve.cpp:11:
+../../../../../source/include/serviceglobal.h:20:21: warning: 'kd::serv_errdes' defined but not used [-Wunused-variable]
+ static const char  *serv_errdes[90] = {
+                     ^~~~~~~~~~~
+In file included from /home/scada/jibei/source/include/oodbcpp/oodb_sort.h:5,
+                 from /home/scada/jibei/source/include/oodbcpp/oodb_cpp_global.h:20,
+                 from /home/scada/jibei/source/include/oodbcpp/oodb_cpp_net.h:16,
+                 from /home/scada/jibei/source/include/oodbcpp/oodb_cpp_apiop.h:17,
+                 from ../../../../../source/include/db_api/odb_tableop.h:18,
+                 from ../pub/pubodbapi.h:110,
+                 from ../lfo_ana_obj.h:13,
+                 from LFOAnaByCurve.cpp:11:
+/home/scada/jibei/source/include/rtdbc/dstruct.h:407:21: warning: 'errdes' defined but not used [-Wunused-variable]
+ static const char  *errdes[100] = {
+                     ^~~~~~
+g++ -fpermissive -pthread -g -fPIC -shared -o libpowoscana.so PronyAnalysis.o LFOAnaByCurve.o -L../../../../../source/lib -L../ -ldl -lpthread -lpub -lodb_apiall_lib -lsam_service -lsam_common -lrte -ltriggersampleclient -lpub -lodb_apiall_lib -lpthread -lwamap_dbio -lwrdb_pnapi -L/opt/intel/Compiler/11.1/069/lib/intel64 -lifcore -lifport
+/bin/ld: 找不到 -ltriggersampleclient
+/bin/ld: 找不到 -lwamap_dbio
+/bin/ld: 找不到 -lwrdb_pnapi
+/bin/ld: 找不到 -lifcore
+/bin/ld: 找不到 -lifport
+collect2: error: ld returned 1 exit status
+make: *** [makefile:30：libpowoscana.so] 错误 1

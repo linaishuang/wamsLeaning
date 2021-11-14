@@ -1,0 +1,49 @@
+.SUFFIXES: .idl .cpp .c .o
+
+OBJECTS0    = pubfun.o\
+              pubodbapi.o\
+              pubwamsdata.o\
+              DataFile.o\
+              PubDataProcess.o
+
+PROGRAM1    = wamssomon
+OBJECTS1    = WamSsoMonObj.o\
+              WamSsoMonObjItfc.o\
+              WamSsoMon.o\
+              public_m.o
+
+OBJ_EXT1    = $(OBJECTS0)
+
+CC          = `makeopts.sh cc` -D_CXX -D_WAMAP_ -D_PODB_MSGBUS_ -D_D5000 -D_ADDFACID_ -D_WAMSDATA_ -D_GUANGDONG -D_NUSP
+CCFLAGS     = `makeopts.sh ccflag corba_inc cppdollar` -I../../pub -I$(D5000_HOME)/src/advanced/wams/wams_lib/inc
+LDFLAGS     = `makeopts.sh ldflag` -L../
+RDB_LIB     =  
+LIBS        = `makeopts.sh syslib pub odb_api sam msg` -lmstream -lpub_tools -lpub -lodb_apiall_lib -lpthread -lsqlspclient -lwamap_dbio -lpowoscana -lproc_common -lscn_service
+VPATH       = ..:../../pub:../../wamlfoana
+
+.cpp.o:
+	@echo	$(CC) $< $(CCFLAGS)
+	@		$(CC) $< $(CCFLAGS)
+
+
+all : $(OBJECTS0) $(PROGRAM1)
+
+$(PROGRAM1): $(OBJECTS1) $(OBJ_EXT1)
+	@echo	$(CC) -o $(PROGRAM1) $(OBJECTS1) $(OBJ_EXT1) $(LDFLAGS) $(LIBS) $(RDB_LIB)
+	@		$(CC) -o $(PROGRAM1) $(OBJECTS1) $(OBJ_EXT1) $(LDFLAGS) $(LIBS) $(RDB_LIB)
+
+# optional part
+
+RM 	= rm -f
+
+clean:
+	$(RM) $(OBJECTS0)
+	$(RM) $(PROGRAM1) $(OBJECTS1) $(OBJ_EXT1)
+
+cleano:
+	$(RM) $(OBJECTS0)
+	$(RM) $(OBJECTS1)
+	$(RM) $(OBJ_EXT1)
+
+cleanp:
+	$(RM) $(PROGRAM1)

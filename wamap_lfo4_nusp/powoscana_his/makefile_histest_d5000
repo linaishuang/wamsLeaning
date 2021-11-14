@@ -1,0 +1,43 @@
+.SUFFIXES: .idl .cpp .c .o
+
+OBJECTS0    = 
+
+PROGRAM1    = pow_his_lib_test
+OBJECTS1    = pow_his_lib_test.o
+
+OBJ_EXT1    = $(OBJECTS0)
+
+CC          = `makeopts.sh cc` -D_CXX -D_D5000 -D_LFO_HIS_LIB_
+CCFLAGS     = `makeopts.sh ccflag corba_inc cppdollar` -I../../pub -I../../ -I$(D5000_HOME)/src/advanced/wams/wams_lib/inc
+LDFLAGS     = `makeopts.sh ldflag` -L..
+RDB_LIB     = -ldbclient
+LIBS        = `makeopts.sh syslib pub sam` -lpub -lodb_apiall_lib -lpthread -ldbclient -lsqlspclient -lpowoscanahis -lpowoscana
+VPATH       = ..:../../pub:../../
+
+.cpp.o:
+	@echo	$(CC) $< $(CCFLAGS)
+	@		$(CC) $< $(CCFLAGS)
+
+
+all : $(OBJECTS0) $(PROGRAM1)
+
+$(PROGRAM1): $(OBJECTS1) $(OBJ_EXT1)
+	@echo	$(CC) -o $(PROGRAM1) $(OBJECTS1) $(OBJ_EXT1) $(LDFLAGS) $(LIBS) $(RDB_LIB)
+	@		$(CC) -o $(PROGRAM1) $(OBJECTS1) $(OBJ_EXT1) $(LDFLAGS) $(LIBS) $(RDB_LIB)
+	cp -f $(PROGRAM1) ..
+
+# optional part
+
+RM 	= rm -f
+
+clean:
+	$(RM) $(OBJECTS0)
+	$(RM) $(PROGRAM1) $(OBJECTS1) $(OBJ_EXT1)
+
+cleano:
+	$(RM) $(OBJECTS0)
+	$(RM) $(OBJECTS1)
+	$(RM) $(OBJ_EXT1)
+
+cleanp:
+	$(RM) $(PROGRAM1)

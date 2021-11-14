@@ -1,0 +1,42 @@
+.SUFFIXES: .cpp .o
+
+PROGRAM = wamlfotool
+
+OBJECTS = pubfun.o\
+          pubodbapi.o\
+          wamtool.o\
+          wamtoolobj.o
+
+OBJ_EXT = 
+
+CC      = `makeopts.sh cc` -D_WAMAP_ -D_APP_SYS_WAMAP
+CCFLAGS = `makeopts.sh ccflag corba_inc cppdollar` -I../../pub
+LDFLAGS = `makeopts.sh ldflag`
+LIBS    = `makeopts.sh syslib pub odb_api sam corba_lib cwrap` -lsqlspclient -ldbclient -lmessage_bus
+VPATH   = ..:../../pub
+
+all : $(PROGRAM)
+
+.cpp.o:
+	@echo	$(CC) $(CCFLAGS) $<
+	@	$(CC) $(CCFLAGS) $<
+
+$(PROGRAM): $(OBJECTS) $(OBJ_EXT) $(LOCAL_LIBRARIES)
+	@echo	$(CC) -o $(PROGRAM)  $(OBJECTS) $(OBJ_EXT) $(LDFLAGS) $(LIBS) 
+	@	$(CC) -o $(PROGRAM)  $(OBJECTS) $(OBJ_EXT) $(LDFLAGS) $(LIBS)
+	cp -f $(PROGRAM) ../../bin
+
+# optional part
+
+RM 	= rm -f
+
+clean:
+	$(RM) $(PROGRAM) $(OBJECTS)
+
+cleano:
+	$(RM) $(OBJECTS)
+
+cleanp:
+	$(RM) $(PROGRAM)
+
+

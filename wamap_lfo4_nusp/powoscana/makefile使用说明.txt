@@ -1,0 +1,17 @@
+makefile使用说明：
+1、makefile_D5000
+说明：适用于D5000环境
+2、makefile_KEDONG
+说明：适用于科东平台
+3、makefile_GUANGDONG
+说明：适用于南网环境
+4、makefile_OPEN3000
+说明：适用于OPEN3000环境
+5、makefile_CHG_AMPL
+说明：该宏支持根据设备的当前功率的百分比，设置动态可变的振幅门槛值，
+每个设备均可设置百分比。各地区根据各自需要配置宏定义。
+
+宏定义配置方法：
+1、vi makefile 打开编译开关
+2、在下面语句后添加  -D+宏定义
+CC          = `makeopts.sh cc` -D_CXX -D_WAMSDATA_ -D_D5000 -D_WAMAP_  -D_PODB_WARN_  -D_PODB_SAMPLE_ -D_CHG_AMPL

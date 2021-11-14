@@ -1,0 +1,41 @@
+.SUFFIXES: .cpp .o
+
+PROGRAM = wamssotool
+
+OBJECTS = pubfun.o\
+          pubodbapi.o\
+          wamtool.o\
+          wamtoolobj.o
+
+OBJ_EXT = 
+
+CC      = `makeopts.sh cc` -D_WAMAP_ -D_TABLE_NET -D_D5000 -D_NUSP -D_KEDONG -D_SIFANG 
+CCFLAGS = `makeopts.sh ccflag` -I../pub -I../../pub -I${HOME} -I${HOME}/source/include -I${HOME}/source/include/oodbcpp -I${HOME}/source/include/rtdbc -I${HOME}/source/src_pcp/eaccsinc
+LDFLAGS = `makeopts.sh ldflag` -L${HOME}/eaccs/lib
+LIBS    = `makeopts.sh syslib pub odb_api sam msg` -lmstream -lman -leaccshisdbop -lproc_common -lscn_service
+VPATH   = ..:../../pub:../pub
+
+all : $(PROGRAM)
+
+.cpp.o:
+	@echo	$(CC) $(CCFLAGS) $<
+	@	$(CC) $(CCFLAGS) $<
+
+$(PROGRAM): $(OBJECTS) $(OBJ_EXT) $(LOCAL_LIBRARIES)
+	@echo	$(CC) -o $(PROGRAM)  $(OBJECTS) $(OBJ_EXT) $(LDFLAGS) $(LIBS) 
+	@	$(CC) -o $(PROGRAM)  $(OBJECTS) $(OBJ_EXT) $(LDFLAGS) $(LIBS)
+
+# optional part
+
+RM 	= rm -f
+
+clean:
+	$(RM) $(PROGRAM) $(OBJECTS)
+
+cleano:
+	$(RM) $(OBJECTS)
+
+cleanp:
+	$(RM) $(PROGRAM)
+
+
