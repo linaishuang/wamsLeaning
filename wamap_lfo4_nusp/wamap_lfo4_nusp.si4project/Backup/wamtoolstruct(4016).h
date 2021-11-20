@@ -72,7 +72,6 @@ typedef struct type_WT_PARA_INFO
 	int  nAMOld;  // AM设备表中记录个数
 	INT_REC MAX_AMOld_idx;  // AM设备表中记录最大索引idx
 	int  nAMNew;  // 新增设备个数
-	int  is_add_facname;   //  是否增加厂站名称（主要针对机组和变压器）
 }WT_PARA_INFO;
 // 端点信息
 typedef struct  type_WT_DOT_INFO

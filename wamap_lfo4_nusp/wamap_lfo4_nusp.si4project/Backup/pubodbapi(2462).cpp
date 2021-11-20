@@ -35,11 +35,7 @@ int CPubOdbApi::PODB_TableGet(const int tableno, const std::string deffields, CB
 {
 	int ret = -1;
 	if (appno == AP_WAMS_FES) {
-#ifdef _KEDONG
 		ret = m_IDBTable_wams_fes.Open(appno, tableno, contextno);
-#else
-		ret = m_IDBTableNet.Open(appno, tableno, contextno);
-#endif // _KEDONG
 	}
 	else 
 	{
@@ -54,11 +50,7 @@ int CPubOdbApi::PODB_TableGet(const int tableno, const std::string deffields, CB
 
 	if (appno == AP_WAMS_FES)
 	{
-#ifdef _KEDONG
 		ret = m_IDBTable_wams_fes.TableGet(deffields.c_str(), buf_base);
-#else
-		ret = m_IDBTableNet.TableGet(deffields.c_str(), buf_base);
-#endif // _KEDONG
 	}
 	else
 	{
@@ -80,11 +72,7 @@ int CPubOdbApi::PODB_TableGet(const int tableno, CBuffer& buf_base, const int ap
 	int ret = -1;
 	if (appno == AP_WAMS_FES)
 	{
-#ifdef _KEDONG
 		ret = m_IDBTable_wams_fes.Open(appno, tableno, contextno);
-#else
-		ret = m_IDBTableNet.Open(appno, tableno, contextno);
-#endif // _KEDONG
 	}
 	else 
 	{
@@ -99,11 +87,7 @@ int CPubOdbApi::PODB_TableGet(const int tableno, CBuffer& buf_base, const int ap
 
 	if (appno == AP_WAMS_FES)
 	{
-#ifdef _KEDONG
 		ret = m_IDBTable_wams_fes.TableGet(buf_base);
-#else
-		ret = m_IDBTableNet.TableGet(buf_base);
-#endif // _KEDONG
 	}
 	else
 	{
@@ -155,7 +139,7 @@ int CPubOdbApi::PODB_GetFieldNoByName(const int tableno, const char* field_name,
 	}
 
 	ret = m_IDBTable.GetFieldNoByName(tmpFieldNo, field_name);
-	if (ret < 0)  // op和net的返回值不同，op返回结果为0，net返回结果为域号
+	if (ret <= 0)
 	{
 		sprintf(m_LogString, "获取表域号失败,置默认值,ret[%d],appno[%d],tabno[%d],ctxno[%d],field_name[%s]", ret, appno, tableno, contextno, field_name);
 		MessShow(m_LogString, LTERROR);
