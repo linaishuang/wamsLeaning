@@ -8,7 +8,7 @@ OBJECTS     = PronyAnalysis.o \
 CC       = `makeopts.sh cc` -D_CXX -D_UNIX -D_WAMSDATA_ -D_D5000 -D_WAMAP_  -D_PODB_WARN_ -D_GUANGDONG -D_NUSP
 CCFLAGS  = `makeopts.sh ccflag corba_inc cppdollar` -I../../pub -I$(D5000_HOME)/src/include/db_api -I$(D5000_HOME)/src/advanced/wams/wams_lib/inc -I../../tmd/work/i_lfo/save -I$(D5000_HOME)/src/advanced/wams/wams_fes/fes_warn
 LDFLAGS  = `makeopts.sh ldflag`
-LIBS     = `makeopts.sh syslib pub odb_api sam msg ` -ltriggersampleclient -lpub -lodb_apiall_lib -lpthread -lwamap_dbio  -L/opt/intel/Compiler/11.1/069/lib/intel64 -lifcore -lifport
+LIBS     = `makeopts.sh syslib pub odb_api sam msg ` -lpub -lodb_apiall_lib -lpthread -lwamap_dbio  -L/opt/intel/Compiler/11.1/069/lib/intel64 -lifcore -lifport # -ltriggersampleclient
 MAKE_SO  = `makeopts.sh mk_so`
 LIB_PATH = `makeopts.sh lib_path`
 

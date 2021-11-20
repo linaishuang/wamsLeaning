@@ -379,6 +379,8 @@ private:
 #endif // _KEDONG
 #endif // _TABLR_NET
 
+NET_ODB::CTableNet  m_IDBTableNet;      //  实时库网络接口_tmp
+
 #ifdef _NUSP
 	NS_SYSADMIN::CScnService m_ServMan;
 #else

@@ -1,0 +1,7 @@
+---- √ Matches (6 in 1 files) ----
+CLfoAnaObj::UpdateLfoParaTable in lfo_ana_obj.cpp (powoscana) : 		// 		sprintf(tmpLfoParaInfo.is_source_des,"√");
+CLfoAnaObj::UpdateLfoParaTable in lfo_ana_obj.cpp (powoscana) : 		//sprintf(tmpLfoParaInfo.is_source_des2, "√");
+CLfoAnaObj::ClearLfoParaTable in lfo_ana_obj.cpp (powoscana) : 		sprintf(tmpLfoParaInfo.is_source_des, "√");
+CLfoAnaObj::ClearLfoParaTable in lfo_ana_obj.cpp (powoscana) : 			sprintf(tmpLfoParaInfo.mode_source_des, "√");
+CLfoAnaObj::UpdateWDSTable in lfo_ana_obj.cpp (powoscana) : 			sprintf(tmpAllmode.is_source_des, "√");
+CLfoAnaObj::SampleHisMode in lfo_ana_obj.cpp (powoscana) : 			sprintf(tmpAllmode.is_source_des, "√");

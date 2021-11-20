@@ -231,7 +231,6 @@ bool CWamToolObj::ReadIniFile(const string IniFileName, WT_PARA_INFO& tmpPara)
 	g_appNo = iniFile.INI_GetValueI(sectionName, "app_no", AP_WAMS);
 
 	sectionName = "¿ØÖÆ²ÎÊý";
-	tmpPara.is_add_facname = iniFile.INI_GetValueI(sectionName, "is_add_facname", 0);
 	//    m_DebugType = iniFile.INI_GetValueI(sectionName,"DebugType",LTINFO);
 	// 	tmpPara.nMode = iniFile.INI_GetValueI(sectionName,"nMode",WT_MODE_ALL);
 	// 	tmpPara.VBase = iniFile.INI_GetValueFF(sectionName,"VBase",220.0);

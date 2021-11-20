@@ -32,10 +32,9 @@
 #include <vector>
 #include <iostream>
 #include <system.h>  //获取应用参数 AP_WAMS AF_WAMS_NAME
-#ifdef _SIFANG
 #include <sam_service.h>  //获取应用所在主机host_name
 #include <sam_common.h> 
-#endif // _SIFANG
+
 using namespace std;
 
 #ifdef AP_WAMS

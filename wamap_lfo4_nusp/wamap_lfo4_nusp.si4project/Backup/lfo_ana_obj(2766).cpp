@@ -11741,8 +11741,7 @@ int CLfoAnaObj::UpdateLfoParaTable(LFO_CASE_INFO& LfoCase)
 		// 		tmpLfoParaInfo.is_lfo_source = MENU_LFO_MENU_YES;
 		tmpLfoParaInfo.is_lfo_source2 = MENU_LFO_MENU_YES;
 		// 		sprintf(tmpLfoParaInfo.is_source_des,"√");
-		sprintf(tmpLfoParaInfo.is_source_des2, "是");
-		//sprintf(tmpLfoParaInfo.is_source_des2, "√");
+		sprintf(tmpLfoParaInfo.is_source_des2, "√");
 		sprintf(tmpLfoParaInfo.lfo_ana_des2, "%s;%s", tmpLfoParaInfo.lfos_des2, tmpLfoParaInfo.center_desc2);	// 分析描述使用振荡源描述
 // 		sprintf(tmpLfoParaInfo.lfo_ana_des,"振荡源:%s",tmpLfoParaInfo.lfos_des2);	// 分析描述使用振荡源描述
 	}
@@ -11751,8 +11750,7 @@ int CLfoAnaObj::UpdateLfoParaTable(LFO_CASE_INFO& LfoCase)
 		// 		tmpLfoParaInfo.is_lfo_source = MENU_LFO_MENU_NO;
 		tmpLfoParaInfo.is_lfo_source2 = MENU_LFO_MENU_NO;
 		// 		sprintf(tmpLfoParaInfo.is_source_des,"×");
-		sprintf(tmpLfoParaInfo.is_source_des2, "否");
-		//sprintf(tmpLfoParaInfo.is_source_des2, "×");
+		sprintf(tmpLfoParaInfo.is_source_des2, "×");
 		sprintf(tmpLfoParaInfo.lfo_ana_des2, "%s;%s", tmpLfoParaInfo.center_desc2, tmpLfoParaInfo.lfos_des2);	//分析描述使用振荡中心描述
 // 		if (strlen(tmpLfoParaInfo.center_desc) != 0)
 // 		{
@@ -14944,13 +14942,11 @@ int CLfoAnaObj::UpdateWDSTable(LFO_CASE_INFO& LfoCase)
 		sprintf(tmpAllmode.lfo_ana_des, "%s", LfoCase.vec_mainmode[ii].lfo_ana_des);
 		if (tmpAllmode.is_lfo_source == 1)
 		{
-			//sprintf(tmpAllmode.is_source_des, "√");
-			sprintf(tmpAllmode.is_source_des, "是");
+			sprintf(tmpAllmode.is_source_des, "√");
 		}
 		else
 		{
-			//sprintf(tmpAllmode.is_source_des, "×");
-			sprintf(tmpAllmode.is_source_des, "否");
+			sprintf(tmpAllmode.is_source_des, "×");
 		}
 		sprintf(tmpAllmode.lfo_time, "%s", PT_GetStringOfTimeInterval((tmpAllmode.lfo_end - tmpAllmode.lfo_bgn) * 1000));
 		for (jj = 0; jj < LfoCase.vec_mainmode[ii].vec_dev.size(); jj++)

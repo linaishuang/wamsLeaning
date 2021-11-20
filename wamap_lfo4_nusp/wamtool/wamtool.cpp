@@ -20,8 +20,8 @@
 using namespace std;
 
 CWamToolObj *g_pWamToolObj= NULL;//  MVTOOL类定义
-int   g_appNo = AP_WAMS_SSO;
-string g_appName = AF_WAMS_SSO_NAME;
+int   g_appNo = AP_WAMS;
+string g_appName = AF_WAMS_NAME;
 int   g_ctxNo = AC_REALTIME_NO;
 string g_ctxName = AC_REALTIME_NAME;
 string g_ProName  = "wamlfotool";  // 程序名称
